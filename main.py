@@ -27,4 +27,6 @@ print("total price:", item1.calculate_total_price())
 # then try to find it at class level
 print(item1.pay_rate)
 
+print(Item.__dict__)    # All the attributes for class level
+print(item1.__dict__)   # All the attributes for instance level
 print()
